@@ -42,10 +42,10 @@ if(window.attachEvent) {
     TweenMax.to(topMid, 1.5, {delay: 3.5, fill:"#f78d28"});
     TweenMax.to(topSection, 1.5, {delay: 3.5, fill:"#ef392e"});
 
-    TweenMax.to(topSection, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
-    TweenMax.to(topMid, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
-    TweenMax.to(mid, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
-    TweenMax.to(midBottom, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
-    TweenMax.to(bottom, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
+    //TweenMax.to(topSection, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
+    //TweenMax.to(topMid, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
+    //TweenMax.to(mid, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
+    //TweenMax.to(midBottom, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
+    //TweenMax.to(bottom, 1, {delay: 5, rotation:360, transformOrigin:"50% 50%"});
 
 };
