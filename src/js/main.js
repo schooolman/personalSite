@@ -3,6 +3,9 @@ var topMid = $(".cls-5");
 var mid = $(".cls-2");
 var midBottom = $(".cls-4");
 var bottom = $(".cls-3");
+var leftIcon = $("cl-1");
+var leftNav = $("splitNavLeft");
+var rightIcon = $(".rightIcon");
 
 if(window.attachEvent) {
     window.attachEvent('onload', logoAnimate);
@@ -18,6 +21,15 @@ if(window.attachEvent) {
         window.onload = logoAnimate;
     }
 }
+
+//$(".splitNavLeft").mouseover(function() {
+//
+//    console.log("mouse is over");
+//    TweenMax.to(leftIcon, 0.5, {fill:"#00ad5f"});
+//});
+
+
+
 
 
  function logoAnimate() {
