@@ -183,6 +183,20 @@ textarea {
     width: 800px;
 }
 
+.bottomNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    font-size: 28px;
+}
+
+.bottomNav h3 {
+    width: 20%;
+    text-align: center;
+}
+
 
 
 
