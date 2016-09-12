@@ -1,0 +1,123 @@
+.resume {/* this can be main */
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 700px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 3px #424242;
+    border-radius: 5px;
+}
+
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-image: url("images/redcorner_upperleft.png"), url("images/yellowcorner_upperright.png"), url("images/bluecorner_lowerright.png"), url("images/greencorner_lowerleft.png");
+    background-position: top left, top right, bottom right, bottom left;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+
+body h3{
+    font-weight: medium;
+}
+
+.title p{
+    /*could be used as header*/
+    font-size: 18px;
+}
+
+.resume .thumbnail {
+    float: right;
+    width: 18%;
+    background-color: white;
+}
+
+.whoiam {
+    /*could be used as aside*/
+    position: relative;
+    left: 20px;
+    display: inline-block;
+    width: 35%;
+    margin-left: 10px;
+    padding-left: 20px;
+    height: 700px;
+}
+
+.whoiam h3{
+    border-bottom: 1px dashed black;
+    margin: 0px 20px 0px 0px;
+}
+
+
+.leftside {
+    /*could be used as article*/
+    position: relative;
+    left: 20px;
+    height: 700px;
+    float:left;
+    width: 33%;
+    padding-left: 5px;
+    height: 700px;
+    padding-right: 30px;
+    padding-bottom: -50px;
+    border-right: 3px solid black;
+
+}
+
+.leftside h3 {
+    border-bottom: 1px dashed black;
+    margin: 0px 20px 0px 0px;
+}
+
+
+.experience {
+    display: block;
+    float:left;
+    left: 20px;
+    margin-top: 10px;
+    padding: 0px 1px 1px 10px;
+}
+
+.title {
+    display: block;
+    left: 20px;
+    padding: 1px 1px 1px 10px;
+
+
+
+}
+
+.education {
+    display: block;
+    left: 20px;
+    margin-top: 20px;
+    padding: 10px 1px 0px 10px;
+}
+
+
+.worldmap {
+    padding-right: 20px;
+    padding: 1px 0px 20px 10px;
+
+}
+.selfp {
+    position: relative;
+    top: 9px;
+    right: 25px;
+}
+
+.toolbox {
+    margin-top: 20px;
+    padding: 20px 1px 1px 10px;
+}
+
+.skills {
+    margin-top: 20px;
+    padding: 20px 1px 1px 10px;
+
+}
+
+.experience li{
+    line-height: 18px;
+}
