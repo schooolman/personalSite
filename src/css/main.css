@@ -201,6 +201,16 @@ body {
     font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 
+.testHeader {
+    position: absolute;
+    left: -100px;
+    top: 150px;
+}
+
+#mainContainer {
+    height: 10000px;
+}
+
 
 
 
