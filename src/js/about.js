@@ -8,6 +8,7 @@ console.log("connected");
 $(document).ready(function() {
 
     var testHeader = $(".testHeader");
+    var secondHeadline = $(".mini-content-container");
 
     //var main = document.getElementById("mainContainer");
 
@@ -20,7 +21,7 @@ $(document).ready(function() {
     function firstline(){
 
         TweenMax.to(testHeader, 0.5, {x: 500, scale: 1.5});
-
+        TweenMax.to(secondHeadline, 1.5, {delay:0.5, x: 2000, scale: 1.5})
     };
 
 });
