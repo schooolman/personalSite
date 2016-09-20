@@ -408,3 +408,8 @@ body {
     margin-top: 20px;
 }
 
+.contentSectionOne {
+    height: 2000px;
+    width: 100%;
+    background: #d6d6d6;
+}

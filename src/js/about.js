@@ -2,18 +2,22 @@
  * Created by JacobSchoolmeesters on 9/14/16.
  */
 
-console.log("connected");
+//console.log("connected");
 
 
 $(document).ready(function() {
+
+    var scrollPosition = $(document).scrollTop();
+    //var scrollCounter = 0;
 
     var testHeader = $(".testHeader");
     var secondHeadline = $(".mini-content-container");
 
     //var main = document.getElementById("mainContainer");
 
-    document.getElementById("mainContainer").onscroll = function(){
-        console.log("scrolling");
+    document.getElementsByClassName("contentSectionOne").onscroll = function(){
+        console.log(scrollPosition);
+        //scrollCounter++;
         firstline();
     };
 
