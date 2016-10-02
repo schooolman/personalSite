@@ -24,7 +24,7 @@ var sass = require('gulp-ruby-sass'),
 gulp.task('styles', function() {
     return sass('src/css/main.scss', { style: 'expanded' })
         .pipe(autoprefixer('last 2 version'))
-        .pipe(gulp.dest('dist/css'))
+        .pipe(gulp.dest('src/css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(cssnano())
         .pipe(gulp.dest('dist/css'))
