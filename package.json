@@ -20,6 +20,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.3",
     "gulp-ruby-sass": "^2.1.0",
+    "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.0.0",
     "jquery": "1.12.0",
     "jshint": "^2.9.3",

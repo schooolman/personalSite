@@ -1,0 +1,10 @@
+.main:after {
+  width: 100px;
+  height: 100px;
+  background-color: blue; }
+
+.test > a {
+  font-size: 10px; }
+
+.lasttest {
+  color: black; }
