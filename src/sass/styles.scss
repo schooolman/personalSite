@@ -1,15 +1,25 @@
-.main {
+//.main {
+//    &:after {
+//        width: 100px;
+//        height: 100px;
+//        background-color: blue;
+//    }
+//}
+//
+//.test2 > a {
+//    font-size: 10px;
+//}
+//
+//.lasttest {
+//    color: black;
+//}
+
+.sectionOne {
     &:after {
-        width: 100px;
-        height: 100px;
-        background-color: blue;
+        content: "";
+        width: 20px;
+        height: 20px;
+        color: lightblue;
+
     }
-}
-
-.test > a {
-    font-size: 10px;
-}
-
-.lasttest {
-    color: black;
 }
