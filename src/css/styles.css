@@ -15,9 +15,41 @@
     border-top: 30px solid black;
     border-right: 30px solid transparent;
     border-left: 30px solid transparent;
-    bottom: -205px; }
+    bottom: -184px;
+    transition: all 200ms linear; }
+  .sectionOne:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: relative;
+    border-top: 30px solid #ffffff;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    bottom: -328px;
+    z-index: 1;
+    transition: all 200ms linear; }
+  .sectionOne:hover {
+    border-bottom: 2px solid lightblue;
+    transition: all 200ms linear; }
+    .sectionOne:hover:before {
+      bottom: -325px;
+      transition: all 200ms linear; }
+    .sectionOne:hover:after {
+      border-top: 30px solid lightblue;
+      transition: all 200ms linear; }
   .sectionOne h2 {
     font-size: 24px; }
+
+.sectionTwo {
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  background: #ffffff;
+  overflow: visible;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  z-index: 1;
+  margin-top: 300px; }
 
 .pageContainer .backButton {
   background: #ffffff;
@@ -26,9 +58,9 @@
   margin-bottom: 0; }
 
 .pageContainer .logoMain {
-  width: 20%;
-  height: auto;
+  width: auto;
+  height: 80vh;
   position: fixed;
-  top: 20px;
+  top: 10vh;
   right: 100px;
   z-index: -1; }
