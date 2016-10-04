@@ -1,25 +1,28 @@
-//.main {
-//    &:after {
-//        width: 100px;
-//        height: 100px;
-//        background-color: blue;
-//    }
-//}
-//
-//.test2 > a {
-//    font-size: 10px;
-//}
-//
-//.lasttest {
-//    color: black;
-//}
-
 .sectionOne {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background: #ffffff;
+    overflow: visible;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
     &:after {
         content: "";
-        width: 20px;
-        height: 20px;
-        color: lightblue;
-
+        width: 0;
+        height: 0;
+        display: block;
+        position: absolute;
+        border-top: 30px solid black;
+        border-right: 30px solid transparent;
+        border-left: 30px solid transparent;
+        bottom: 20px;
+        margin-left: 50%;
     }
+
+    h2 {font-size: 24px;}
 }
+
+//.sectionOneHeader {
+//    font-size: 24px;
+//}
