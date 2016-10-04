@@ -5,17 +5,30 @@
   background: #ffffff;
   overflow: visible;
   border-top: 2px solid black;
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid black;
+  z-index: 1; }
   .sectionOne:after {
     content: "";
     width: 0;
     height: 0;
-    display: block;
-    position: absolute;
+    position: relative;
     border-top: 30px solid black;
     border-right: 30px solid transparent;
     border-left: 30px solid transparent;
-    bottom: 20px;
-    margin-left: 50%; }
+    bottom: -205px; }
   .sectionOne h2 {
     font-size: 24px; }
+
+.pageContainer .backButton {
+  background: #ffffff;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  margin-bottom: 0; }
+
+.pageContainer .logoMain {
+  width: 20%;
+  height: auto;
+  position: fixed;
+  top: 20px;
+  right: 100px;
+  z-index: -1; }
