@@ -38,18 +38,27 @@ $(document).ready(function() {
     //Animating CSS with jquery
     //Logo moves from right to left on scroll
     var scrollCounter = 0;
+    var i = 0;
 
-    if(scrollCounter < 100){
-        moveLogo();
-    } else if(scrollCounter === 105) {
+    if(i < 100){
+        $(window).scroll(function(){
+            scrollCounter += 10;
+            i += 5;
+            $(".logoMain").css("right", scrollCounter);
+            console.log(scrollCounter);
+            //return scrollCounter;
+        });
+        //moveLogo();
+    } else {
         fadeLogo();
     }
 
     function moveLogo(){
         $(window).scroll(function(){
-            scrollCounter += 5;
-            $(".logoMain").css("right", scrollCounter);
+            scrollCounter++;
+            $(".logoMain").css("right", (scrollCounter + 5));
             console.log(scrollCounter);
+            return scrollCounter;
         })
     }
 
