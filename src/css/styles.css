@@ -29,7 +29,8 @@
     z-index: 1;
     transition: all 200ms linear; }
   .sectionOne:hover {
-    border-bottom: 2px solid lightblue;
+    border-bottom: 4px solid lightblue;
+    border-top: 4px solid lightblue;
     transition: all 200ms linear; }
     .sectionOne:hover:before {
       bottom: -325px;
