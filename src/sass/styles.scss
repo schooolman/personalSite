@@ -13,7 +13,7 @@ body{
     text-align: center;
     width: 100%;
     height: 100%;
-    padding: 5% 0;
+    padding: 5% 0 48px 0;
     background: #ffffff;
     overflow: visible;
     border-top: 2px solid black;
@@ -40,7 +40,7 @@ body{
         border-top: 30px solid black;
         border-right: 30px solid transparent;
         border-left: 30px solid transparent;
-        bottom: -102px;
+        bottom: -101px;
         transition: all 200ms linear;
         //margin-left: 50%;
     }
