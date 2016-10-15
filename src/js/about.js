@@ -28,6 +28,9 @@ $(document).ready(function() {
     //}
 
 
+
+    //This is the first attempt at using jquery scroll event for animation
+    //--------DELETE BELOW EVENTUALLY---------//
     //Animating CSS with jquery
     //Logo moves from right to left on scroll
     var scrollCounter = 0;
