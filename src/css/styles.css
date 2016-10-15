@@ -97,4 +97,4 @@ body {
   top: 10vh;
   right: 100px;
   z-index: -1;
-  transition: height 100ms linear; }
+  transition: all 5000ms linear; }
