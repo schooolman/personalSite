@@ -135,8 +135,9 @@ body{
         top: 10vh;
         right: 100px;
         z-index: -1;
-        transition: right 5000ms linear,
-                    opacity 200ms linear;
-        //transition: opacity 200ms linear;
+        //transition: right 5000ms linear,
+        //            opacity 200ms linear;
+        transition: right 100ms linear,
+                    opacity 500ms linear;
     }
 }

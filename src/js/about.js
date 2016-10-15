@@ -4,13 +4,18 @@
 $(document).ready(function() {
 
 
+
+
     $(window).scroll(function(){
-       if($(this).scrollTop() > 250) {
-           $('.logoMain').css('right', 1500);
+        var logoMove = $(this).scrollTop();
+
+       if($(this).scrollTop() < 1200) {
+           //$('.logoMain').css('right', 1500);
+           $('.logoMain').css('right', logoMove);
            //console.log('working');
        }
 
-        if($(this).scrollTop() > 500) {
+        if($(this).scrollTop() > 1000) {
             //fadeLogo();
             $('.logoMain').css('opacity', 0);
             console.log("animation has fired");
