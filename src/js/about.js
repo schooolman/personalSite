@@ -5,10 +5,16 @@ $(document).ready(function() {
 
 
     $(window).scroll(function(){
-       if($(this).scrollTop() > 60) {
-           $('.logoMain').css('right', 2000);
-           console.log('working');
+       if($(this).scrollTop() > 250) {
+           $('.logoMain').css('right', 1500);
+           //console.log('working');
        }
+
+        if($(this).scrollTop() > 500) {
+            //fadeLogo();
+            $('.logoMain').css('opacity', 0);
+            console.log("animation has fired");
+        }
     });
 
     //if($(window).scrollTop() > 60) {
@@ -45,7 +51,7 @@ $(document).ready(function() {
     }
 
     function fadeLogo(){
-        $(".logoMain").css("opacity", "0");
+        $(".logoMain").css("opacity", 0);
         console.log("else!");
         // alert("elseStatement!");
     }
