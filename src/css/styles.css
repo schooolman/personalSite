@@ -5,7 +5,7 @@ body {
   padding: 0;
   width: 100%;
   margin: 0;
-  background-color: #eeeeee; }
+  background: repeating-linear-gradient(45deg, rgba(255, 209, 130, 0.3), rgba(255, 209, 130, 0.3) 10px, rgba(255, 255, 255, 0.3) 10px, #ffffff 20px); }
 
 .sectionOne {
   text-align: center;
@@ -85,8 +85,24 @@ body {
     margin: 10px auto;
     display: inline-block; }
 
-.pageContainer .backButton {
+.sectionThree {
+  text-align: center;
+  width: 100%;
+  padding: 5% 0;
+  height: 100%;
   background: #ffffff;
+  overflow: visible;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  z-index: 1;
+  margin-top: 300px; }
+  .sectionThree p {
+    font-size: 24px;
+    width: 70%;
+    margin: 10px auto;
+    display: inline-block; }
+
+.pageContainer .backButton {
   padding-bottom: 20px;
   padding-left: 40px;
   margin-bottom: 0; }
