@@ -3,6 +3,16 @@
 
 $(document).ready(function() {
 
+    var headerOne = $(".sectionOneHeader");
+    var headerTwo = $(".sectionOneSubHeader");
+
+    var tl = new TimelineMax();
+
+    //This time line fires on page load. Use callbacks for more animations
+    //
+    tl.to(headerOne, 1, {scale: 1.2})
+        .to(headerTwo, 1, {scale: 1.1});
+
 
 
 
@@ -19,6 +29,8 @@ $(document).ready(function() {
             //fadeLogo();
             $('.logoMain').css('opacity', 0);
             console.log("animation has fired");
+        } else  {
+            $('.logoMain').css('opacity', 1);
         }
     });
 
