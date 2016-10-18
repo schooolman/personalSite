@@ -105,10 +105,29 @@ body {
   .sectionThree .airplane {
     position: relative;
     display: block;
-    width: 50px; }
+    width: 50px;
+    bottom: -200px; }
     .sectionThree .airplane .fa-plane:before {
       font-size: 36px;
       color: lightblue; }
+  .sectionThree .airplaneTwo {
+    position: relative;
+    display: block;
+    width: 50px;
+    left: 400px;
+    bottom: -200px; }
+    .sectionThree .airplaneTwo .fa-plane:before {
+      font-size: 36px;
+      color: red; }
+  .sectionThree .airplaneThree {
+    position: relative;
+    display: block;
+    width: 50px;
+    left: 600px;
+    bottom: -200px; }
+    .sectionThree .airplaneThree .fa-plane:before {
+      font-size: 36px;
+      color: greenyellow; }
 
 .backButton {
   width: 0;

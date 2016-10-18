@@ -148,6 +148,7 @@ body{
         position: relative;
         display: block;
         width: 50px;
+        bottom: -200px;
         //height: 100px;
 
 
@@ -155,6 +156,44 @@ body{
             &:before {
                 font-size: 36px;
                 color: lightblue;
+                //position: absolute;
+                //left: 200px;
+            }
+        }
+    }
+
+    .airplaneTwo {
+        position: relative;
+        display: block;
+        width: 50px;
+        left: 400px;
+        bottom: -200px;
+        //height: 100px;
+
+
+        .fa-plane {
+            &:before {
+                font-size: 36px;
+                color: red;
+                //position: absolute;
+                //left: 200px;
+            }
+        }
+    }
+
+    .airplaneThree {
+        position: relative;
+        display: block;
+        width: 50px;
+        left: 600px;
+        bottom: -200px;
+        //height: 100px;
+
+
+        .fa-plane {
+            &:before {
+                font-size: 36px;
+                color: greenyellow;
                 //position: absolute;
                 //left: 200px;
             }

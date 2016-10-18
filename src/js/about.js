@@ -5,6 +5,9 @@ $(document).ready(function() {
 
     var headerOne = $(".sectionOneHeader");
     var headerTwo = $(".sectionOneSubHeader");
+    var planeOne = $(".airplane");
+    var planeTwo = $(".airplaneTwo");
+    var planeThree = $(".airplaneThree");
 
     var tl = new TimelineMax();
 
@@ -31,6 +34,10 @@ $(document).ready(function() {
             console.log("animation has fired");
         } else  {
             $('.logoMain').css('opacity', 1);
+        }
+
+        if($(this).scrollTop() > 1200) {
+            getPlaneTimeline();
         }
     });
 
@@ -74,6 +81,15 @@ $(document).ready(function() {
         $(".logoMain").css("opacity", 0);
         console.log("else!");
         // alert("elseStatement!");
+    }
+
+    // function for the timeline of the airplane animations.
+    function getPlaneTimeline() {
+        var planeTimeline = new TimelineMax();
+
+        planeTimeline.to(planeOne, 2, {bottom: 300, left: 400})
+            .to(planeTwo, 2, {delay: -1, bottom: 400, left: 800})
+            .to(planeThree, 2, {delay: -1, bottom: 400, left: 1000});
     }
 
 
