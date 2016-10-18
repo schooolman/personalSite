@@ -132,7 +132,7 @@ body{
     padding: 5% 0;
     height: 100%;
     background: #ffffff;
-    overflow: visible;
+    overflow: hidden;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     z-index: 1;
@@ -143,6 +143,24 @@ body{
         margin: 10px auto;
         display: inline-block;
     }
+
+    .airplane {
+        position: relative;
+        display: block;
+        width: 50px;
+        //height: 100px;
+
+
+        .fa-plane {
+            &:before {
+                font-size: 36px;
+                color: lightblue;
+                //position: absolute;
+                //left: 200px;
+            }
+        }
+    }
+
 }
 
 //Back button styling
