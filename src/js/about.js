@@ -89,7 +89,13 @@ $(document).ready(function() {
 
         planeTimeline.to(planeOne, 2, {bottom: 300, left: 400})
             .to(planeTwo, 2, {delay: -1, bottom: 400, left: 800})
-            .to(planeThree, 2, {delay: -1, bottom: 400, left: 1000});
+            .to(planeThree, 2, {delay: -1, bottom: 400, left: 1000})
+            .to(planeOne, 0.01, {delay: -1, bottom: -200, left: 600, autoAlpha: 0})
+            .to(planeOne, 0.01, {autoAlpha: 1})
+            .to(planeOne, 1.5, {bottom: 300, left: 1000})
+            .to(planeTwo, 0.01, {delay: -1, bottom: -200, left: 800, autoAlpha: 0})
+            .to(planeTwo, 0.01, {autoAlpha: 1})
+            .to(planeTwo, 1.5, {bottom: 300, left: 1200});
     }
 
 
