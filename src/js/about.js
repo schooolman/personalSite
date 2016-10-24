@@ -36,7 +36,7 @@ $(document).ready(function() {
             $('.logoMain').css('opacity', 1);
         }
 
-        if($(this).scrollTop() > 1200) {
+        if($(this).scrollTop() > 1050) {
             getPlaneTimeline();
         }
     });
