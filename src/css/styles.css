@@ -69,10 +69,47 @@ body {
     opacity: 0;
     transition: all 200ms linear; }
 
+.tv {
+  width: 230px;
+  height: 165px;
+  background: red;
+  margin: -30PX 0 0 45px;
+  border-radius: 2px; }
+  .tv:after {
+    content: "";
+    position: absolute;
+    width: 190px;
+    height: 140px;
+    background: #fff;
+    margin-top: 10px;
+    margin-left: -105px;
+    z-index: 2;
+    box-shadow: inset 5px 5px 15px 5px #ddd, inset -5px -5px 15px 5px #ddd; }
+  .tv:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background: #fff;
+    z-index: 5;
+    margin-left: 90px;
+    margin-top: 12px;
+    box-shadow: 0px 30px 0px -3px #fff, 0px 60px 0px -3px #fff, 0px 90px 0px -3px #fff, 0px 120px 0px -3px #fff; }
+
+.tvLegs {
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid red;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  margin: -20px 100px 0;
+  position: relative; }
+
 .sectionTwo {
   text-align: center;
   width: 100%;
-  padding: 5% 0;
+  padding: 5% 0 0 0;
   height: 100%;
   background: #ffffff;
   overflow: visible;
